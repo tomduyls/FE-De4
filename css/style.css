@@ -209,6 +209,23 @@ header .header-inner-right-item:last-child i {
 .listing {
   background-color: white;
 }
+.listing .top-sellers,
+.listing .featured,
+.listing .most-reviews {
+  height: 0;
+  opacity: 0;
+  transition: opacity, 0.5s;
+  -webkit-transition: opacity, 0.5s;
+  -moz-transition: opacity, 0.5s;
+  -ms-transition: opacity, 0.5s;
+  -o-transition: opacity, 0.5s;
+}
+.listing .top-sellers.active,
+.listing .featured.active,
+.listing .most-reviews.active {
+  opacity: 1;
+  height: auto;
+}
 .listing .list-nav {
   display: flex;
   text-transform: uppercase;
@@ -219,6 +236,7 @@ header .header-inner-right-item:last-child i {
 }
 .listing .list-nav-item {
   padding: 16px 17px;
+  cursor: pointer;
 }
 .listing .list-content .product {
   margin-bottom: 69px;
@@ -260,8 +278,15 @@ header .header-inner-right-item:last-child i {
   padding: 15px 0;
   font-size: 14px;
 }
+.listing .list-content .product-content .product-name {
+  margin-bottom: 2px;
+}
 .listing .list-content .product-content .product-price {
   font-weight: bold;
+}
+.listing .selected {
+  color: #dd2f31;
+  border-bottom: 1px solid #dd2f31;
 }
 .testimonials .client {
   text-align: center;
@@ -270,14 +295,14 @@ header .header-inner-right-item:last-child i {
   font-size: 36px;
   font-weight: bold;
   margin-top: 38px;
-  margin-bottom: 46px;
+  margin-bottom: 41px;
 }
 .testimonials .client .avatar {
   margin: 0 auto;
 }
 .testimonials .client .comment {
   font-size: 18px;
-  margin: 24px auto 28px auto;
+  margin: 23px auto 28px auto;
   max-width: 770px;
   color: #777777;
 }

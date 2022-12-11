@@ -130,149 +130,439 @@
 
                     <!-- Listing -->
                     <div class="listing">
-                        <div class="list-nav">
-                            <div class="list-nav-item">Top sellers</div>
-                            <div class="list-nav-item">Featured</div>
-                            <div class="list-nav-item">Most reviews</div>
+                        <div class="list-nav" id="list-nav">
+                            <div class="list-nav-item selected" data="1">Top sellers</div>
+                            <div class="list-nav-item" data="2">Featured</div>
+                            <div class="list-nav-item" data="3">Most reviews</div>
                         </div>
-                        <div class="list-content row">
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
+                        <!-- Top Sellers List -->
+                        <div class="top-sellers active">
+                            <div class="list-content row">
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product1.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Champ Cardio</div>
+                                                <div class="product-price">$342.00</div>
+                                            </div>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product2.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Solid GCEC340</div>
+                                                <div class="product-price">$214.00</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product3.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Bowflex BXE116 Elliptical</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product4.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ETHOS GHD</div>
+                                                <div class="product-price">$152.00</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product5.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">AFG Pro 7.2AI Incline</div>
+                                                <div class="product-price">$252.00</div>
+                                            </div>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product6.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Weight Bench</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product7.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ProForm Hiit Trainer Lite 5.9</div>
+                                                <div class="product-price">$300.00</div>
+                                            </div>
                                         </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product8.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Fitness Gear Pro</div>
+                                                <div class="product-price">$124.00</div>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product5.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
-                                        </div>
-                                        <div class="product-content">
-                                            <div class="product-name">AFG Pro 7.2AI Incline</div>
-                                            <div class="product-price">$342.00</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
-                                        </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
-                                        </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="product">
-                                <a href="#">
-                                    <div class="product-inner">
-                                        <img src="./img/Product1.png" alt="">
-                                        <div class="product-btn">
-                                            <i class="fa-solid fa-basket-shopping"></i>
-                                            <i class="fa-solid fa-eye"></i>
-                                            <i class="fa-solid fa-heart"></i>
-                                            <i class="fa-solid fa-right-left"></i>
-                                        </div>
-                                        <div class="product-content">
-                                            <div class="product-name">Body Champ Cardio</div>
-                                            <div class="product-price">$342.00</div>
-                                        </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
+                        <!-- End Top Sellers List -->
+
+                        <!-- Featured List -->
+                        <div class="featured">
+                            <div class="list-content row">
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product2.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Solid GCEC340</div>
+                                                <div class="product-price">$214.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product1.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Champ Cardio</div>
+                                                <div class="product-price">$342.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product3.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Bowflex BXE116 Elliptical</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product4.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ETHOS GHD</div>
+                                                <div class="product-price">$152.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product5.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">AFG Pro 7.2AI Incline</div>
+                                                <div class="product-price">$252.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product6.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Weight Bench</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product7.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ProForm Hiit Trainer Lite 5.9</div>
+                                                <div class="product-price">$300.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product8.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Fitness Gear Pro</div>
+                                                <div class="product-price">$124.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Featured List -->
+
+                        <!-- Most Reviews List -->
+                        <div class="most-reviews">
+                            <div class="list-content row">
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product3.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Bowflex BXE116 Elliptical</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product1.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Champ Cardio</div>
+                                                <div class="product-price">$342.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product2.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Body Solid GCEC340</div>
+                                                <div class="product-price">$214.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product4.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ETHOS GHD</div>
+                                                <div class="product-price">$152.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product5.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">AFG Pro 7.2AI Incline</div>
+                                                <div class="product-price">$252.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product6.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Weight Bench</div>
+                                                <div class="product-price">$412.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product7.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">ProForm Hiit Trainer Lite 5.9</div>
+                                                <div class="product-price">$300.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product">
+                                    <a href="#">
+                                        <div class="product-inner">
+                                            <img src="./img/Product8.png" alt="">
+                                            <div class="product-btn">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <i class="fa-solid fa-eye"></i>
+                                                <i class="fa-solid fa-heart"></i>
+                                                <i class="fa-solid fa-right-left"></i>
+                                            </div>
+                                            <div class="product-content">
+                                                <div class="product-name">Fitness Gear Pro</div>
+                                                <div class="product-price">$124.00</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Most Reviews List -->
                     </div>
                     <!-- Listing -->
 

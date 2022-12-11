@@ -39,7 +39,16 @@
 
 .listing {
     background-color: white;
-    .list-nav{
+    .top-sellers, .featured, .most-reviews{
+        height: 0;
+        opacity: 0;
+        .transition(opacity, 0.5s);
+    }
+    .top-sellers.active, .featured.active, .most-reviews.active{
+        opacity: 1;
+        height: auto;
+    }
+    .list-nav{ 
         display: flex;
         text-transform: uppercase;
         font-weight: bold;
@@ -48,6 +57,7 @@
         margin-bottom: 43px;
         &-item{
             padding: 16px 17px;
+            cursor: pointer;
         }
     }
     .list-content{
@@ -87,11 +97,18 @@
                 margin-left: 30px;
                 padding: 15px 0;
                 font-size: 14px;
+                .product-name{
+                    margin-bottom: 2px;
+                }
                 .product-price{
                     font-weight: bold;
                 }
             }
         }
+    }
+    .selected{
+        color: #dd2f31;
+        border-bottom: 1px solid #dd2f31;
     }
 }
 
@@ -102,14 +119,14 @@
             font-size: 36px;
             font-weight: bold;
             margin-top: 38px;
-            margin-bottom: 46px;
+            margin-bottom: 41px;
         }
         .avatar{
             margin: 0 auto;
         }
         .comment{
             font-size: 18px;
-            margin: 24px auto 28px auto;
+            margin: 23px auto 28px auto;
             max-width: 770px;
             color: #777777;
         }
