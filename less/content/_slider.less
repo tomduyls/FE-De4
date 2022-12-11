@@ -1,6 +1,6 @@
 .slider{
     color: white;
-    height: 950px;
+    // position: relative;
     //.slick-arrow {}
     .slick-prev {
         left: 20px;
@@ -18,6 +18,12 @@
             position: absolute;
             top: 30%;
             left: 50%;
+            &-inner{
+                position: relative;
+                top: 16px;
+                right: 1px;
+                .col(50%);
+            }
             .transform(translate(-50%, 0));
             .slide-title {
                 font-size: 59px;

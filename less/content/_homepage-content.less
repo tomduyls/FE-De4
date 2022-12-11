@@ -1,6 +1,163 @@
-.main-content{
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
+.banner {
+    transform: translateY(-77px);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    &-item {
+        //display: flex;
+        width: 33.33%;
+        height: 250px;
+        .item-img{
+            .image{
+                width: 100%;
+                //height: 50%;
+            }
+        }
+        .item-content{
+            text-align: center;
+            background-color: white;
+            width: 100%;
+            .item-icon{
+                padding-top: 30px;
+                .dumbbells{
+                    padding-top: 17px;
+                }
+            }
+            .item-title{
+                padding: 17px 0;
+                font-weight: bold;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+            .item-description{
+                font-size: 14px;
+            }
+            
+        }   
+    }
+}
+
+.listing {
+    background-color: white;
+    .list-nav{
+        display: flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        border-bottom: 2px solid #dddddd;
+        margin-bottom: 43px;
+        &-item{
+            padding: 16px 17px;
+        }
+    }
+    .list-content{
+        .product{
+            margin-bottom: 69px;
+            position: relative;
+            .col(25%);
+            &-btn{
+                display: none;
+                position: absolute;
+                top: 5%;
+                right: 10%;
+                align-items: center;
+                i{
+                    display: block;
+                    height: 34px;
+                    width: 34px;
+                    line-height: 34px;
+                    text-align: center;
+                    border: 1px solid #dddddd;
+                    border-radius: 5px 0;
+                    margin: 7px 0 8px 0;
+                    color: #dddddd;
+                    &:hover{
+                        background-color: #dd2f31;
+                        color: white;
+                    }
+                }
+            }
+            &-inner:hover {
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+                .product-btn{
+                    display: block;
+                }
+            }
+            &-content{
+                margin-left: 30px;
+                padding: 15px 0;
+                font-size: 14px;
+                .product-price{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.testimonials {
+    .client{
+        text-align: center;
+        .title{
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 38px;
+            margin-bottom: 46px;
+        }
+        .avatar{
+            margin: 0 auto;
+        }
+        .comment{
+            font-size: 18px;
+            margin: 24px auto 28px auto;
+            max-width: 770px;
+            color: #777777;
+        }
+        .name{
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 9px;
+        }
+        .type{
+            font-size: 14px;
+            color: #777777;
+            margin-bottom: 33px;
+        }
+    }
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+		li {
+			margin: 0 1px;
+            button {
+                display: block;
+                width: 10px;
+                height: 10px;
+                padding: 0;
+                border: none;
+                border-radius: 100%;
+                background-color: #cccccc;
+                text-indent: -9999px;
+            }
+		}
+		li.slick-active button {
+			background-color: #dd2f31;
+		}
+	
+}
+
+.brand {
+    margin-top: 115px;
+    border-top: 1px solid #cccccc;
+    &-item{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .col(16.667%);
+    }
 }
