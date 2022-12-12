@@ -26,3 +26,15 @@ $(".list-nav .list-nav-item").click(function () {
             break;
     }
 });
+
+$(".nav-mobile").click(function (e) { 
+    e.preventDefault();
+    $(".header-inner-nav").addClass("active");
+    $(".cover").addClass("active");
+});
+
+$(".cover").click(function (e) { 
+    e.preventDefault();
+    $(".header-inner-nav").removeClass("active");
+    $(".cover").removeClass("active");
+});

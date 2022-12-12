@@ -4,7 +4,8 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 900;
+    width: 100%;
     .header-inner {
         display: flex;
         justify-content: space-between;
@@ -22,6 +23,9 @@ header{
                 position: relative;
                 left: 17px;
                 top: 4px;
+                .navigation {
+                    display: none;
+                }
                 li {
                     margin-right:50px;
                     a {
@@ -45,19 +49,26 @@ header{
             align-items: center;
             position: relative;
             top: 3px;
+            .nav-mobile {
+                display: none;
+            }
             &-item {
                 i {
                     font-size: 16px;
                     color: white;
                     padding: 0 26px;
-                    border-right: 1px solid #777;
+                    border-left: 1px solid #777;
                     &:hover{
                         cursor: pointer;
                     }
                 }
-                &:last-child{
+                &:nth-child(3){
                     i{
                         padding-right: 0px;
+                    }
+                }
+                &:first-child{
+                    i{
                         border: none;
                     }
                 }
